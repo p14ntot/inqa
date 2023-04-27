@@ -1,0 +1,19 @@
+form{
+    display: flex;
+}
+
+
+.one-day{
+    display: grid;
+    grid-template-columns: 80px 80px  2fr;
+    grid-template-rows: 70px 70px;
+    width: 500px;
+}
+
+.one-day input{
+    width: 50px;
+}
+
+.to-all-btn{
+    margin-top: 18px;
+}
