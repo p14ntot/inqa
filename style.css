@@ -1,3 +1,7 @@
+:root{
+    --color-for-btn:rgb(86, 86, 233);
+}
+
 form{
     display: flex;
 }
@@ -6,14 +10,28 @@ form{
 .one-day{
     display: grid;
     grid-template-columns: 80px 80px  2fr;
-    grid-template-rows: 70px 70px;
-    width: 500px;
+    grid-template-rows: 70px 70px ;
+    width: 340px;
+    border: 2px solid aqua;
+    
 }
 
 .one-day input{
-    width: 50px;
+    width: 75px;
 }
 
 .to-all-btn{
     margin-top: 18px;
+    width: 120px;
+    margin-left: 20px;
+    background-color: var(--color-for-btn);
+    color: aliceblue;
+}
+
+#sub-btn{
+    width: 150px;
+    height: 60px;
+    background-color: var(--color-for-btn);
+    margin-top: 45px;
+    color: aliceblue;
 }
