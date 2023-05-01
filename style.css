@@ -11,19 +11,20 @@ form{
     display: grid;
     grid-template-columns: 80px 80px  2fr;
     grid-template-rows: 70px 70px ;
-    width: 340px;
+    width: 350px;
     border: 2px solid aqua;
     
 }
 
+
 .one-day input{
-    width: 75px;
+    width: 100px;
 }
 
 .to-all-btn{
     margin-top: 18px;
     width: 120px;
-    margin-left: 20px;
+    margin-left: 30px;
     background-color: var(--color-for-btn);
     color: aliceblue;
 }
